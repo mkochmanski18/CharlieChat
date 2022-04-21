@@ -1,0 +1,14 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    background-color: #336699;
+    overflow:hidden;
+    position: relative;
+}
+@media(max-width:900px)
+{
+    .App{
+        overflow: scroll;
+        background-color: #f8f8f8;
+        }
+}
